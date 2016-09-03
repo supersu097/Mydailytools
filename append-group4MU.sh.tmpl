@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+usernames='{{.usernames}}'
+fail_user=()
+for username in ${usernames[@]}
+do
+    id ${username}
+    if [ $? -eq 0 ];then
+        echo "Detect user of ${username}:OK!"
+	echo "==================="
+
+        usermod -a -G sudo ${username}
+        if [ $? -ne 0 ];then
+	    echo "usermod of $username: fail"
+            echo "==================="
+            fail_user+=${username}
+        else
+            echo "Append user of ${username} to sudo group:OK!"
+            echo "==================="
+        fi
+    else
+	echo "The user of ${username} do not exist!"
+	fail_user+=${username}
+        echo "==================="
+    fi
+
+done
+if [ ${#fail_user[@]} -ne 0 ];then
+    echo 'one or more users group appending failed is shown as below:'
+    for i in ${fail_user[@]}
+    do
+       echo "$i,"
+    done
+    exit 1
+fi
