@@ -1,5 +1,5 @@
 # Mydailytools
-Function as the repo name
+A series of tools to make my daily workflow more smooth...  
 
 ## Intro
 - converter.py ----- convert a given string with a constant pattern to a list
@@ -11,7 +11,7 @@ xxx-xxx-3
 
 Tips: You can pass many args behind the command
 ``` 
-
+-----------
 - suffix_clear.py ---- remove the suffix of a given strinig with a constant pattern
 ```
 usage: suffix_clear.py [-h] filename
@@ -30,7 +30,7 @@ $ ./suffix_clear.py t.txt
 map
 mail
 ```
-
+------------
 - append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户
 
 - rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户
@@ -47,3 +47,4 @@ optional arguments:
                         The amount of pubkey you wanna remove one time,default
                         is 10.
 ```
+------------
