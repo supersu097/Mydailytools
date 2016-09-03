@@ -30,3 +30,20 @@ $ ./suffix_clear.py t.txt
 map
 mail
 ```
+
+- append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户
+
+- rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户
+
+- rm_key.py ------------------- 用来回收跳板机上的用户权限
+```
+usage: rm_key.py [-h] [-n NUMBER]
+
+Remove random pubkey of user
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -n NUMBER, --number NUMBER
+                        The amount of pubkey you wanna remove one time,default
+                        is 10.
+```
