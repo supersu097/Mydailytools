@@ -10,8 +10,9 @@ xxx-xxx-2
 xxx-xxx-3  
 
 Tips: You can pass many args behind the command
-``` 
+```  
 -----------
+
 - suffix_clear.py ---- remove the suffix of a given strinig with a constant pattern
 ```
 usage: suffix_clear.py [-h] filename
@@ -29,14 +30,16 @@ mail.google.com
 $ ./suffix_clear.py t.txt
 map
 mail
-```
-------------
-- append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户
+```  
+------------  
 
-- rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户
-------------
+- append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户  
 
-- rm_key.py ------------------- 用来回收跳板机上的用户权限
+- rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户  
+
+------------   
+
+- rm_key.py ------------------- 用来回收跳板机上的用户权限  
 ```
 usage: rm_key.py [-h] [-n NUMBER]
 
@@ -48,4 +51,4 @@ optional arguments:
                         The amount of pubkey you wanna remove one time,default
                         is 10.
 ```
-------------
+------------  
