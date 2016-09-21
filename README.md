@@ -47,12 +47,18 @@ optional arguments:
 ```
 ------------
 - youdao_vocabulary_notebook.py  
-A little tools to help me extract the words from  
-which exported via youdao vocabulary notebook with txt format...  
+```
+usage: youdao_vocabulary_notebook.py [-h] filename
 
-Usage:  
+A little tools to help me extract the words which exported from youdao
+vocabulary notebook with txt format...
 
+positional arguments:
+  filename    The file you wanna process.
 
+optional arguments:
+  -h, --help  show this help message and exit
+```
 ------------
 - append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户  
 
