@@ -45,7 +45,15 @@ optional arguments:
                         The amount of pubkey you wanna remove one time,default
                         is 10.
 ```
-------------  
+------------
+- youdao_vocabulary_notebook.py  
+A little tools to help me extract the words from  
+which exported via youdao vocabulary notebook with txt format...  
+
+Usage:  
+
+
+------------
 - append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户  
 
 - rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户  
