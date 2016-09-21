@@ -1,7 +1,7 @@
 # Mydailytools
 A series of tools to make my daily workflow more smooth...  
 
-## Intro
+## Overview and Intro
 - converter.py ----- convert a given string with a constant pattern to a list
 ```
 $ ./converter.py  xxx-xxx-\[1-3\]
@@ -31,12 +31,6 @@ $ ./suffix_clear.py t.txt
 map
 mail
 ```  
-------------  
-
-- append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户  
-
-- rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户  
-
 ------------   
 
 - rm_key.py ------------------- 用来回收跳板机上的用户权限  
@@ -52,3 +46,22 @@ optional arguments:
                         is 10.
 ```
 ------------  
+- append-group4MU.sh.tmpl ----- 用来给产研添加sudo权限,支持多用户  
+
+- rm-user4MU.sh.tmpl ---------- 用来删除线上用户账户,支持多用户  
+
+- user-add.sh.tmpl ------------ 用来给产研创建用户，支持多用户         
+
+# Misc
+
+## Overview and Intro
+- `chinese_print_issue.py`　　　print含有中文的列表和字典对象的几种方法
+- `rockgame.py`　　　　　　　　剪子布包锤的py实现
+- `csv2sqlite.py`　　　　　　　Read contact csv file,then write into sqlite db
+```
+我之前的联系人托管在百度云上的联系人管理，但是该页面没有相应的移动端界面，
+在手机上使用很不方便，现在借助Python的Sqlite3模块从csv文件中遍历每一行联
+系人并按照自己喜欢的格式进行格式化，真的很方便！我的安卓手机上装了个SQLite
+Editor,现在查看和编辑联系人信息就方便多了。手机本地只喜欢存储一些常用的联系人,  
+原因国内的App你懂得
+```
