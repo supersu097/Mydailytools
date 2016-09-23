@@ -2,7 +2,7 @@
 A series of tools to make my daily workflow more smooth...  
 
 ## Overview and Intro
-- `converter.py` &emsp;&emsp;&emsp;&emsp; convert a given string with a constant pattern to a list
+- `converter.py` &emsp;&emsp;&emsp; convert a given string with a constant pattern to a list
 ```
 $ ./converter.py  xxx-xxx-\[1-3\]
 xxx-xxx-1
@@ -11,9 +11,8 @@ xxx-xxx-3
 
 Tips: You can pass many args behind the command
 ```  
------------
 
-- `suffix_clear.py` ---- remove the suffix of a given strinig with a constant pattern
+- `suffix_clear.py` &emsp;&emsp;&emsp; remove the suffix of a given strinig with a constant pattern
 ```
 usage: suffix_clear.py [-h] filename
 
@@ -31,9 +30,8 @@ $ ./suffix_clear.py t.txt
 map
 mail
 ```  
-------------   
 
-- `rm_key.py` ------------------- 用来回收跳板机上的用户权限  
+- `rm_key.py` &emsp;&emsp;&emsp; 用来回收跳板机上的用户权限  
 ```
 usage: rm_key.py [-h] [-n NUMBER]
 
@@ -45,7 +43,7 @@ optional arguments:
                         The amount of pubkey you wanna remove one time,default
                         is 10.
 ```
-------------
+
 - `youdao_vocabulary_notebook.py`
 ```
 usage: youdao_vocabulary_notebook.py [-h] filename
@@ -59,20 +57,20 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
-------------
-- `append-group4MU.sh.tmpl` ----- 用来给产研添加sudo权限,支持多用户  
 
-- `rm-user4MU.sh.tmpl` ---------- 用来删除线上用户账户,支持多用户  
+- `append-group4MU.sh.tmpl` &emsp;&emsp;&emsp; 用来给产研添加sudo权限,支持多用户  
 
-- `user-add.sh.tmpl` ------------ 用来给产研创建用户，支持多用户         
+- `rm-user4MU.sh.tmpl` &emsp;&emsp;&emsp; 用来删除线上用户账户,支持多用户  
+
+- `user-add.sh.tmpl` &emsp;&emsp;&emsp; 用来给产研创建用户，支持多用户         
 
 # Misc
 
 ## Overview and Intro
-- `chinese_print_issue.py`　　　print含有中文的列表和字典对象的几种方法
-- `rockgame.py`　　　　　　　　剪子布包锤的py实现
-- `eg4multiprocessing.queues`  Function as the filename says
-- `csv2sqlite.py`　　　　　　　Read contact csv file,then write into sqlite db
+- `chinese_print_issue.py` &emsp;&emsp;&emsp; print含有中文的列表和字典对象的几种方法
+- `rockgame.py` &emsp;&emsp;&emsp; 剪子布包锤的py实现
+- `eg4multiprocessing.queues` &emsp;&emsp;&emsp; Function as the filename says
+- `csv2sqlite.py` &emsp;&emsp;&emsp; Read contact csv file,then write into sqlite db
 ```
 我之前的联系人托管在百度云上的联系人管理，但是该页面没有相应的移动端界面，
 在手机上使用很不方便，现在借助Python的Sqlite3模块从csv文件中遍历每一行联
