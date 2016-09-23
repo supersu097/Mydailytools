@@ -1,0 +1,41 @@
+#!/usr/bin/env python
+# coding=utf-8
+import time
+from multiprocessing import Queue,Process
+from multiprocessing.queues import Empty
+q=Queue()
+def producer():
+    i=0
+    while True:
+        data=range(1000)[i*10:(i+1)*10]
+        if not data:
+            break
+        q.put(data)
+        i+=1
+    q.put('end')
+
+def consumer():
+    try:
+        while True:
+            time.sleep(0.1)
+            #if q.get() == 'end':
+            #    print 'over'
+            #    break
+            print q.get(timeout=1)
+            time.sleep(0.1)
+    except Empty as e:
+        exit('over')
+
+def main():
+    jobs = []
+    for _ in range(20):
+        Multi_consumer = Process(target=consumer)
+        jobs.append(Multi_consumer)
+        Multi_consumer.start()
+
+producer()
+main()
+#print q.qsize()
+#print q.empty()
+#if q.qsize() and q.empty():
+#    print 'ok'
