@@ -1,5 +1,5 @@
 # Mydailytools
-A se&nbsp&nbspries of tools to make my daily workflow more smooth...  
+A se&nbsp;&nbsp;ries of tools to make my daily workflow more smooth...  
 
 ## Overview and Intro
 - `converter.py` ----- convert a given string with a constant pattern to a list
