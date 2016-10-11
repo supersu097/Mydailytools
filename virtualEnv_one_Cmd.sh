@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 # Created by sharp.gan at 2016-10-11
 projectname=$1
 if [ $# -eq 0 -o $# -gt 1 ];then
