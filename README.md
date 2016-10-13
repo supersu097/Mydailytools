@@ -78,3 +78,5 @@ optional arguments:
 Editor,现在查看和编辑联系人信息就方便多了。手机本地只喜欢存储一些常用的联系人,  
 原因国内的App你懂得
 ```
+- `veinit.sh` &emsp;&emsp;&emsp; a solution for virtualenv automation used in
+my zshrc,notice that only one arg of projectname need to be given.
