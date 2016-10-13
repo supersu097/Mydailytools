@@ -14,5 +14,5 @@ function veinit(){
         echo -e "Last comand failed,eixt!"
         return 1
     fi
-    source venv/bin/activate
+    veact
 }
