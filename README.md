@@ -79,4 +79,4 @@ Editor,现在查看和编辑联系人信息就方便多了。手机本地只喜�
 原因国内的App你懂得
 ```
 - `virtualenv_automation.sh` &emsp;&emsp;&emsp; a solution for virtualenv automation used in
-my zshrc,notice that only one arg of projectname need to be given.
+my zshrc  
