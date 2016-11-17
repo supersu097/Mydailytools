@@ -9,7 +9,7 @@ function veinit(){
     #fi
     #mkdir $projectname
     #cd $projectname
-    virtualenv venv
+    virtualenv .venv
     if [ $? -ne 0 ];then
         echo -e "Last comand failed,eixt!"
         return 1
