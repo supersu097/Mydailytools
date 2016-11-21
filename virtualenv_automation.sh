@@ -1,6 +1,6 @@
 # Created by sharp.gan at 2016-10-11
 #alias virtualenv="/usr/local/Cellar/python/2.7.12/Frameworks/Python.framework/Versions/2.7/bin/virtualenv"
-alias veact="source venv/bin/activate"
+alias veact="source .venv/bin/activate"
 function veinit(){
     projectname=$1
     #if [ $# -eq 0 -o $# -gt 1 ];then
