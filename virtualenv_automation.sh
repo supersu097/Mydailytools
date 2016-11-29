@@ -11,7 +11,7 @@ function veinit(){
     #cd $projectname
     virtualenv .venv
     if [ $? -ne 0 ];then
-        echo -e "Last comand failed,eixt!"
+        echo -e "Last comand failed,exit!"
         return 1
     fi
     veact
