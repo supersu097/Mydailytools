@@ -3,25 +3,20 @@
 # Created by sharp.gan at 2016-09-21
 
 import argparse
+from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description='A little tools to help me extract the words '
         'which exported from youdao vocabulary notebook'
-        ' with txt format...') 
+        ' with xml format,notice that it must be the xml format...') 
     parser.add_argument(
         'filename',
         help='The file you wanna process.',
         type=file)
     args = parser.parse_args()
-    data=[]
-    with open(args.filename.name) as r:
-        for i in r:
-            line=i.split(',')[1]
-            if '[' in line:
-                data.append((line.split('[')[0].strip()))
-            elif '\n' in line:
-                data.append((line.split('\n')[0].strip()))
+    soup=BeautifulSoup(open(args.filename.name),'html5lib')
     with open('words.txt','w') as w:
-        for j in data:
-            w.write(j + '\n')
+        for j in soup.find_all('word'):
+            w.write(j.get_text() + '\n')
+
