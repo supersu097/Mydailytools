@@ -7,9 +7,9 @@ from bs4 import BeautifulSoup
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-        description='A little tools to help me extract the words '
-        'which exported from youdao vocabulary notebook'
-        ' with xml format,notice that it must be the xml format...') 
+        description='A little tool to help me extract the words list in a xml'
+        'format file which exported from youdao vocabulary notebook,notice'
+        'that the file itself must be with the xml format...') 
     parser.add_argument(
         'filename',
         help='The file you wanna process.',
