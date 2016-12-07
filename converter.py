@@ -3,7 +3,8 @@
 import sys
 import argparse
 parser = argparse.ArgumentParser(
-    description='Convert a given string with a constant pattern to a list',
+    description='Convert a given string with a constant pattern to a human '
+    'readable status',
     formatter_class=argparse.RawDescriptionHelpFormatter,
     epilog="""
 Sample:
