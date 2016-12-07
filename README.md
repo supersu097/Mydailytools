@@ -24,7 +24,7 @@ A series of tools to make my daily workflow more smooth...
 
 - `eg4multiprocessing.queues` &emsp;&emsp;&emsp; Function as the filename says
 
-- `csv2sqlite.py` &emsp;&emsp;&emsp; Read contact csv file which exported from Baiduyun,then write into sqlite db
+- `csv2sqlite.py` &emsp;&emsp;&emsp; Convert the csv file of contacts which exported from Baiduyun into sqlite db
 
 - `virtualenv_automation.sh` &emsp;&emsp;&emsp; a solution for virtualenv automation used in my zshrc  
 
