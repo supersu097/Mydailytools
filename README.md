@@ -3,14 +3,6 @@ A series of tools to make my daily workflow more smooth...
 
 ## Overview and Intro
 - `converter.py` &emsp;&emsp;&emsp; convert a given string with a constant pattern to a list
-```
-$ ./converter.py  xxx-xxx-\[1-3\]
-xxx-xxx-1
-xxx-xxx-2
-xxx-xxx-3  
-
-Tips: You can pass many args behind the command
-```  
 
 - `suffix_clear.py` &emsp;&emsp;&emsp; remove the suffix of a given strinig with a constant pattern
 ```
