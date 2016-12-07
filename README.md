@@ -2,7 +2,7 @@
 A series of tools to make my daily workflow more smooth...  
 
 ## Overview and Intro
-- `converter.py` &emsp;&emsp;&emsp; convert a given string with a constant pattern to a list
+- `converter.py` &emsp;&emsp;&emsp; convert a given string with a constant pattern to a human readable status
 
 - `suffix_clear.py` &emsp;&emsp;&emsp; remove the suffix of a given strinig with a constant pattern
 ```
