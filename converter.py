@@ -3,8 +3,8 @@
 import sys
 import argparse
 parser = argparse.ArgumentParser(
-    description='Convert a given string with a constant pattern to a human '
-    'readable status',
+    description='convert a non-standord hostname like xx-xx-[1-3] to a '
+    'expansion state',
     formatter_class=argparse.RawDescriptionHelpFormatter,
     epilog="""
 Sample:
