@@ -78,5 +78,9 @@ optional arguments:
 Editor,现在查看和编辑联系人信息就方便多了。手机本地只喜欢存储一些常用的联系人,  
 原因国内的App你懂得
 ```
-- `virtualenv_automation.sh` &emsp;&emsp;&emsp; a solution for virtualenv automation used in
-my zshrc  
+- `virtualenv_automation.sh` &emsp;&emsp;&emsp; a solution for virtualenv automation used in my zshrc  
+
+- `py4tail.py` &emsp;&emsp;&emsp; The functionality of 'tail -f' cmd and search with a keyword implemented in python  
+
+- `decorator_demo.py` &emsp;&emsp;&emsp; The simple implementation sample of
+  decorator in python
