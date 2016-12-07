@@ -8,7 +8,7 @@ A series of tools to make my daily workflow more smooth...
 
 - `rm_key.py` &emsp;&emsp;&emsp; 用来回收跳板机上的用户权限  
 
-- `youdao_vocabulary_notebook.py` &emsp;&emsp;&emsp; A little tool to help me extract the words list which exported from youdao vocabulary notebook with txt format...
+- `youdao_vocabulary_notebook.py` &emsp;&emsp;&emsp; A little tool to help me extract the words list in a xml format file which exported from youdao vocabulary notebook
 
 - `append-group4MU.sh.tmpl` &emsp;&emsp;&emsp; 用来给产研添加sudo权限,支持多用户  
 
