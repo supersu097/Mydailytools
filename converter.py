@@ -13,7 +13,8 @@ xxx-xxx-1
 xxx-xxx-2
 xxx-xxx-3
 
-Tips: You can pass many args behind the command    
+Tips: You can pass many args behind the command,and you need to not forget to 
+escape the character of [ and ]
     
     """)
 parser.add_argument(
