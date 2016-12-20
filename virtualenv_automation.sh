@@ -9,7 +9,7 @@ function veinit(){
     #fi
     #mkdir $projectname
     #cd $projectname
-    virtualenv .venv
+    virtualenv -p python2 .venv
     if [ $? -ne 0 ];then
         echo -e "Last comand failed,exit!"
         return 1
