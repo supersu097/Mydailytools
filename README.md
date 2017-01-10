@@ -20,6 +20,7 @@ A series of tools to make my daily workflow more smooth...
 
 ## Overview and Intro
 - `chinese_print_issue.py` &emsp;&emsp;&emsp; print含有中文的列表和字典对象的几种方法
+
 - `rockgame.py` &emsp;&emsp;&emsp; 剪子布包锤的py实现
 
 - `eg4multiprocessing.queues` &emsp;&emsp;&emsp; Function as the filename says
@@ -33,6 +34,8 @@ A series of tools to make my daily workflow more smooth...
 - `decorator_demo.py` &emsp;&emsp;&emsp; The simple implementation sample of decorator in python
 
 - `gevent-demo.py` &emsp;&emsp;&emsp; A sample of how to tango with gevent
+
+- `po_new_generate.py` &emsp;&emsp;&emsp; A tool that help you generate new translaton .PO file from the old
 
 # Tips
 For more detailed usage and sample,just issue the `./the-script.py -h` to see what will happen...
