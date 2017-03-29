@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+usernames='{{.usernames}}'
+fail_user=()
+for username in ${usernames[@]}
+do
+    id username
+    if [ $? -ne 0 ] ;then
+        echo "==================="
+	fail_user+=${username}
+    else
+        echo "Detect user of ${username}:OK!"
+	echo "==================="
+    fi
+
+    userdel -r ${username}
+    if $? -ne 0;then
+	echo "==================="
+	fail_user+=${username}
+    else
+	echo "Del user of ${username}:OK!"
+	echo "==================="
+    fi
+done
+if [ ${#fail_user[@]} -ne 0 ];then
+    echo 'one or more users removing failed is shown as below:'
+    for i in ${fail_user[@]}
+    do
+       echo "$i,"
+    done
+    exit 1
+fi
