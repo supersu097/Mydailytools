@@ -38,3 +38,4 @@ for u in args.users:
                           shell=True)
     subprocess.check_call("sudo chage -d 0 " + u, shell=True)
     print("Expired the user's password successfully.")
+
