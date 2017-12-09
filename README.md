@@ -21,8 +21,6 @@ A series of tools to make my daily workflow more smooth...
 ## Overview and Intro
 - `chinese_print_issue.py` &emsp;&emsp;&emsp; print含有中文的列表和字典对象的几种方法
 
-- `rockgame.py` &emsp;&emsp;&emsp; 剪子布包锤的py实现
-
 - `eg4multiprocessing.queues` &emsp;&emsp;&emsp; Function as the filename says
 
 - `csv2sqlite.py` &emsp;&emsp;&emsp; Convert the csv file of contacts which exported from Baiduyun into sqlite db
