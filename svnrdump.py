@@ -18,3 +18,4 @@ if not os.path.isfile(DUMPED_PATH + "svn_backup.dump"):
     subprocess.check_call(cmd_generator('', DUMPED_PATH), shell=True)
 else:
     subprocess.check_call(cmd_generator('--incremental', DUMPED_PATH), shell=True)
+    subprocess.check_call('touch did.action',shell=True)
