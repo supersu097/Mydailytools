@@ -1,7 +1,6 @@
 # Mydailytools
 A series of tools to make my daily workflow more smooth...  
 
-## Overview and Intro
 - `converter.py` &emsp;&emsp;&emsp; convert a non-standord hostname like xx-xx-[1-3] to a expansion state
 
 - `suffix_clear.py` &emsp;&emsp;&emsp; remove the domain name in a URL
@@ -16,9 +15,6 @@ A series of tools to make my daily workflow more smooth...
 
 - `user-add.sh.tmpl` &emsp;&emsp;&emsp; 用来给产研创建用户，支持多用户         
 
-# Misc
-
-## Overview and Intro
 - `chinese_print_issue.py` &emsp;&emsp;&emsp; print含有中文的列表和字典对象的几种方法
 
 - `eg4multiprocessing.queues` &emsp;&emsp;&emsp; Function as the filename says
