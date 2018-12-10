@@ -31,5 +31,7 @@ A series of tools to make my daily workflow more smooth...
 
 - `po_new_generate.py` &emsp;&emsp;&emsp; A tool that help you generate new translaton .PO file from the old
 
+- `vic.py` &emsp;&emsp;&emsp; add shebang when create new bash&py script
+
 # Tips
 For more detailed usage and sample,just issue the `./the-script.py -h` to see what will happen...
