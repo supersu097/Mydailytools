@@ -19,9 +19,11 @@ if __name__ == '__main__':
     parser.add_argument(
         '-d', '--dirname',
         type=str,
+        required=True,
         help="the directory name including the images you want to compress")
     parser.add_argument(
     '-g', '--galleryname',
+    required=True,
     type=str,
     help="the gallery name including the images you want to post")
 
