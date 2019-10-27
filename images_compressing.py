@@ -5,6 +5,7 @@ import argparse
 
 def compress(dirname):
     for filename in os.listdir(dirname):
+        print("It's processing the imgage of {}...".format(filename))
         img=cv2.imread(dirname+'/'+filename,1)
         cv2.imwrite(dirname+'/'+filename,img,[cv2.IMWRITE_JPEG_QUALITY,20])
 
